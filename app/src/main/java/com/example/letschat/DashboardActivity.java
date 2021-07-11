@@ -2,6 +2,7 @@ package com.example.letschat;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,7 @@ import java.net.URL;
 
 public class DashboardActivity extends AppCompatActivity {
     EditText secretCodeBox;
-    Button joinBtn, shareBtn;
+    Button joinBtn, shareBtn,boardBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,7 @@ public class DashboardActivity extends AppCompatActivity {
         secretCodeBox = findViewById(R.id.codeBox);
         joinBtn = findViewById(R.id.joinBtn);
         shareBtn = findViewById(R.id.shareBtn);
+        boardBtn = findViewById(R.id.boardBtn);
 
         URL serverURL;
 
@@ -53,6 +55,15 @@ public class DashboardActivity extends AppCompatActivity {
                 JitsiMeetActivity.launch(DashboardActivity.this, options);
             }
         });
+
+
+        boardBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DashboardActivity.this, BoardMainActivity.class));
+            }
+        });
+
     }
 
 

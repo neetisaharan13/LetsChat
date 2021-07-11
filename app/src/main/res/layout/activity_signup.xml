@@ -8,7 +8,7 @@
     tools:context=".signupActivity">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
@@ -98,7 +98,9 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:text="Already Have an Account?"
+                android:textAlignment="gravity"
                 android:textColor="#FFFFFF"
+                android:textSize="10sp"
                 app:backgroundTint="#022535" />
 
         </LinearLayout>
