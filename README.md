@@ -14,6 +14,8 @@ Firestore and Jitsi SDK.
 • you can also raise your hand to ask a query.
 • It also has a white board feature which you can use to write or draw anything with the finger touch.
 
+Application Features: https://www.figma.com/file/NKrGnSfH2YXMT0IllxTNYy/Let-sChat?node-id=0%3A1
+
 Firebase Auth Docs: https://firebase.google.com/docs/auth/android/start
 
 Cloud Firestore Docs: https://firebase.google.com/docs/firestore/quickstart#java
