@@ -14,7 +14,9 @@ Firestore and Jitsi SDK.
 • you can also raise your hand to ask a query.
 • It also has a white board feature which you can use to write or draw anything with the finger touch.
 
-![image](https://drive.google.com/file/d/1SClv8ONjYB1bldeCZuebObzQrgD_Ok4H/view?usp=sharing)
+<p align="center">
+  <img src="https://drive.google.com/file/d/1SClv8ONjYB1bldeCZuebObzQrgD_Ok4H/view?usp=sharing" width="350" title="image">
+</p>
 
 demo video: https://drive.google.com/file/d/1biUG-GE9Ujkx6bw72tAgOp9H7dODHUlo/view?usp=sharing
 
