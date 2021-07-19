@@ -20,6 +20,8 @@ Firestore and Jitsi SDK.
 
 demo video: https://drive.google.com/file/d/1biUG-GE9Ujkx6bw72tAgOp9H7dODHUlo/view?usp=sharing
 
+apk of the application: https://drive.google.com/file/d/1Fn_io_y-CQFrj_zQjzZyU_tC6P2izi3R/view
+
 Application Features: https://www.figma.com/file/NKrGnSfH2YXMT0IllxTNYy/Let-sChat?node-id=0%3A1
 
 Firebase Auth Docs: https://firebase.google.com/docs/auth/android/start
